@@ -1,0 +1,32 @@
+{
+	"name": "lux-chain-bot",
+	"version": "1.0.0",
+	"description": "Lux Blockchain Market Volume Bot",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "ts-node ./src/index.ts",
+		"balance": "ts-node ./src/balance.ts",
+		"wallet": "ts-node ./src/wallets.ts",
+		"send": "ts-node ./src/send.ts",
+		"gather": "ts-node ./src/gather.ts"
+	},
+	"keywords": [
+		"Lux Blockchain",
+		"Swap Router",
+		"Market Volume Bot"
+	],
+	"author": "botdev",
+	"license": "ISC",
+	"dependencies": {
+		"@hapi/boom": "^10.0.1",
+		"axios": "^1.7.9",
+		"dotenv": "^16.4.5",
+		"ethers": "^5.7.2",
+		"jsbi": "^3.2.5",
+		"pino": "^9.4.0",
+		"pino-pretty": "^11.2.2",
+		"ts-node": "^10.9.2",
+		"uuid": "^10.0.0",
+		"winston": "^3.14.2"
+	}
+}
